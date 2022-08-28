@@ -5,7 +5,7 @@ public class Lambda9 {
         System.out.println(sum().sum(1, 2));
     }
 
-    public static MyLambdaInterface sum() {
+    public static MySumLambdaInterface sum() {
         return (a, b) -> a + b;
     }
 }

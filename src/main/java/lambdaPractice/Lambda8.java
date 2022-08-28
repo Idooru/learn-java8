@@ -5,7 +5,7 @@ public class Lambda8 {
         sum((a, b) -> a + b);
     }
 
-    private static void sum(MyLambdaInterface mli) {
+    private static void sum(MySumLambdaInterface mli) {
         System.out.println(mli.sum(7, 2));
     }
 }

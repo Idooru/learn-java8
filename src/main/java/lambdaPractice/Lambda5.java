@@ -2,7 +2,7 @@ package lambdaPractice;
 
 public class Lambda5 {
     public static void main(String[] args) {
-        MyLambdaInterface mli = (a, b) -> {
+        MySumLambdaInterface mli = (a, b) -> {
             return a + b;
         };
 
